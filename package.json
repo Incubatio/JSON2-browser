@@ -1,0 +1,12 @@
+{
+    "author": "Douglas Crockford",
+    "name": "JSON2-browser",
+    "description": "json2 npm package for browsers",
+    "version": "2013-05-26",
+    "homepage": "www.crockford.com/",
+    "repository": {
+      "type":"git",
+      "url": "https://github.com/douglascrockford/JSON-js"
+    },
+    "main": "json2.js"
+}

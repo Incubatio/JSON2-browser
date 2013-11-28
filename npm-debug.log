@@ -1,0 +1,24 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/Users/zell/.nvm/v0.8.14/bin/npm', 'publish' ]
+2 info using npm@1.2.10
+3 info using node@v0.8.14
+4 verbose publish [ '.' ]
+5 verbose read json /Users/zell/dev/js/json2-browser/package.json
+6 error Error: invalid version: 2013-05-26
+6 error     at validVersion (/Users/zell/.nvm/v0.8.14/lib/node_modules/npm/node_modules/read-package-json/read-json.js:582:40)
+6 error     at final (/Users/zell/.nvm/v0.8.14/lib/node_modules/npm/node_modules/read-package-json/read-json.js:342:23)
+6 error     at /Users/zell/.nvm/v0.8.14/lib/node_modules/npm/node_modules/read-package-json/read-json.js:140:33
+6 error     at cb (/Users/zell/.nvm/v0.8.14/lib/node_modules/npm/node_modules/slide/lib/async-map.js:48:11)
+6 error     at /Users/zell/.nvm/v0.8.14/lib/node_modules/npm/node_modules/read-package-json/read-json.js:335:40
+6 error     at fs.readFile (fs.js:176:14)
+6 error     at Object.oncomplete (fs.js:297:15)
+7 error If you need help, you may report this log at:
+7 error     <http://github.com/isaacs/npm/issues>
+7 error or email it to:
+7 error     <npm-@googlegroups.com>
+8 error System Darwin 11.4.2
+9 error command "node" "/Users/zell/.nvm/v0.8.14/bin/npm" "publish"
+10 error cwd /Users/zell/dev/js/json2-browser
+11 error node -v v0.8.14
+12 error npm -v 1.2.10
+13 verbose exit [ 1, true ]
